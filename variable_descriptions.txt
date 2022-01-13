@@ -1,0 +1,106 @@
+data:ESC:mass || ESC mass
+data:ESC:voltage || ESC voltage
+data:ESC:power || Maximum ESC power
+data:ESC:reference:mass || ESC mass reference for scaling law
+data:ESC:reference:power || ESC max. power reference for scaling law
+data:ESC:reference:voltage || ESC voltage reference for scaling law
+data:battery:capacity || Battery capacity
+data:battery:energy || Battery energy
+data:battery:mass || Battery mass
+data:battery:voltage || Battery voltage
+data:battery:voltage:guess || Initial guess of Battery voltage for motor sizing
+data:battery:volume || Battery volume
+data:battery:cell:number || Cell number
+data:battery:cell:number:series || Cell number in series
+data:battery:cell:number:parallel || Cell number in parallel
+data:battery:cell:voltage || Voltage of one cell
+data:battery:current || Maximum battery current
+data:battery:reference:capacity || Battery capacity reference for scaling law
+data:battery:reference:energy|| Battery energy reference for scaling law
+data:battery:reference:mass || Battery mass reference for scaling law
+data:battery:reference:voltage || Battery voltage reference for scaling law
+data:battery:reference:volume || Battery volume reference for scaling law
+data:battery:reference:current:max || Battery max. current reference for scaling law
+data:motor:mass || Motor mass
+data:motor:resistance || Motor resistance
+data:motor:torque:coefficient || Motor torque coefficient
+data:motor:current:hover || Motor current (hover)
+data:motor:current:takeoff || Motor current (takeoff)
+data:motor:power:hover || Motor power (hover)
+data:motor:power:takeoff || Motor power (takeoff)
+data:motor:reference:mass || Motor mass reference for scaling law
+data:motor:reference:resistance || Motor resistance reference for scaling law
+data:motor:reference:torque:coefficient || Motor torque coefficient reference for scaling law
+data:motor:reference:torque:friction || Motor friction torque reference for scaling law
+data:motor:reference:torque:max || Motor max. torque reference for scaling law
+data:motor:reference:torque:nominal || Motor nominal torque reference for scaling law
+data:motor:torque:friction || Motor friction torque
+data:motor:torque:hover || Motor torque (hover)
+data:motor:torque:max || Maximum motor torque
+data:motor:torque:nominal || Nominal motor torque
+data:motor:torque:takeoff || Motor torque (takeoff)
+data:motor:voltage:hover || Motor voltage (hover)
+data:motor:voltage:takeoff || Motor voltage (takeoff)
+specifications:payload:mass:max || Payload mass
+specifications:payload:power || Payload power consumption
+data:propeller:mass || Propeller mass
+data:propeller:number || Number of propellers
+data:propeller:geometry:beta || Angle pitch/diameter
+data:propeller:geometry:diameter || Propeller diameter
+data:propeller:power:hover || Propeller power (hover)
+data:propeller:power:takeoff || Propeller power (takeoff)
+data:propeller:reference:diameter || Propeller diameter reference for scaling law
+data:propeller:reference:mass || Propeller mass reference for scaling law
+data:propeller:reference:ND:max || Max. rotational speed not to be exceeded
+data:propeller:speed:hover || Rotational speed (hover)
+data:propeller:speed:takeoff || Rotational speed (takeoff)
+data:propeller:thrust:hover || Propeller thrust (hover)
+data:propeller:thrust:takeoff || Propeller thrust (takeoff)
+data:propeller:torque:hover || Propeller torque (hover)
+data:propeller:torque:takeoff || Propeller torque (takeoff)
+data:propeller:aerodynamics:CP || Propeller power coefficient in static conditions
+data:propeller:aerodynamics:CT || Propeller thrust coefficient in static conditions
+data:system:MTOW || Maximum Take Off Weight
+data:system:MTOW:guess || Initial guess of Maximum Take Off Weight for sizing scenarios
+data:aerodynamics:Cd || Fuselage Drag coefficient
+data:aerodynamics:Cl0 || Max. fuselage lift coefficient
+data:structure:arms:length || Arms length
+data:structure:arms:mass || Total arms mass
+data:structure:arms:number || Number of arms
+data:structure:arms:prop_per_arm || Number of propellers per arm (single or coaxial configuration)
+data:structure:arms:diameter:inner || Inner diameter of the beam
+data:structure:arms:diameter:outer || Outer diameter of the beam
+data:structure:arms:material:density || Arms material density
+data:structure:arms:material:stress:max || Arms material maximum allowable stress
+data:structure:arms:settings:diameter:k || Inner to outer beam diameter ratio
+data:structure:body:mass || Body mass
+data:structure:body:surface:front || Front surface of the body
+data:structure:body:surface:top || Top surface of the body
+data:structure:reference:arm:mass || Arms mass reference for scaling law
+data:structure:reference:body:mass || Body mass reference for scaling law
+data:structure:reference:body:surface:front || Front surface reference for scaling law
+data:structure:reference:body:surface:top || Top surface reference for scaling law
+specifications:MTOW || Top-level requirement: Maximum Take Off Weight
+specifications:dISA || Temperature variation w.r.t. ISA
+specifications:climb_height || Top-level requirement: climb height
+specifications:range || Top-level requirement: range
+specifications:maxthrust:k || Top-level requirement: maximum thrust-to-weight ratio
+specifications:climb_speed || Top-level requirement: climb speed
+specifications:hover_duration || Top-level requirement: hover phase duration
+specifications:acceleration:takeoff || Acceleration during takeoff
+specifications:atmosphere:density || Air density
+data:mission:duration:hover:max || Drone autonomy in hover flight
+data:structure:arms:angle || Seperation angle between propellers
+data:structure:mass || Total mass of the frame
+data:propeller:speed_Hz:hover || Propeller speed in hover (Hz)
+data:propeller:speed_Hz:takeoff || Propeller speed in takeoff (Hz)
+data:propeller:speed_rad_s:hover || Propeller speed in hover (rad/s)
+data:propeller:speed_rad_s:takeoff || Propeller speed in takeoff (rad/s)
+optim:variable:beta_pro || pitch/diameter ratio of the propeller
+optim:variable:k_D || aspect ratio D_in/D_out for the arms
+optim:variable:k_ND || slow down propeller coeffiecient : ND = NDmax / k_ND
+optim:variable:k_mb || over estimation coefficient on the battery load mass
+optim:variable:k_mot || over estimation coefficient on the motor torque
+optim:variable:k_os || over estimation coefficient on the load mass
+optim:variable:k_speed_mot || over estimation coefficient on the motor speed 
+optim:variable:k_vb || over estimation coefficient on the battery voltage
