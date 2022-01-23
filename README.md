@@ -4,6 +4,10 @@
 
 *Written by Marc Budinger (INSA Toulouse), Scott Delbecq (ISAE-SUPAERO) and Félix Pollet (ISAE-SUPAERO), Toulouse, France.*
 
+
+### Quick launch
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SizingLab/multirotor_sizing_isae_coa_2022_student_version/HEAD)
+
 ### Organization
 
 - 7/01/2022 A.M - Lecture on the **Preliminary design of mechatronic systems** (4 * 1 hour Presential) by Marc Budinger
